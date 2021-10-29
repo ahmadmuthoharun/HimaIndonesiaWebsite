@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-bold {
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+.font-medium {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.font-thin {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.bg-darkblue {
+  background: #03254c;
+}
+
+.bg-birumuda {
+  background: #e4eef8;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.active-button {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding-left: 1em;
+  padding-right: 100em;
+}
+
+.bg-latestNews {
+  background-image: url(../images/home/Background-LatestNews.png);
+  background-repeat: no-repeat;
+  background-size: 90vmax;
+  background-position: top;
+}
+
+.bg-footer {
+  background-image: url(../images/Footer.png);
+  background-repeat: no-repeat;
+  background-size: 90vmax;
+  left: 0;
+  right: 0;
+  top: 28.21%;
+  bottom: 0;
+  background-position: top;
+}
+
+.bg-detail {
+  background-image: url(../images/detailArtikel/detailNews1.png);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 40rem;
+  left: 0;
+  right: 0;
+  top: 28.21%;
+  bottom: 0;
+  background-position: center;
+}
+
+.bg-detail1 {
+  background-image: url(../images/detailArtikel/detailNews2.png);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 20rem;
+  left: 0;
+  right: 0;
+  top: 28.21%;
+  bottom: 0;
+  background-position: center;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+}
+.footer-heading:after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #1dc9ff;
+}
+
+.next-heading {
+  font-size: 18px;
+  color: black;
+  position: relative;
+}
+.next-heading:after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: black;
+}
+
+.text-abu {
+  color: #5e5e5e;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.text-justify {
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.rounded-galeri {
+  border-radius: 20px !important;
+}
+
+.back1 {
+  background-color: #f7fbff;
+}
+
+.box {
+  background-color: #03254c;
+}
+
+.rounded-struktur {
+  border-radius: 10px !important;
+}
